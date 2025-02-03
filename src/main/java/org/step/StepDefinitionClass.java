@@ -57,25 +57,25 @@ public class StepDefinitionClass extends Builder {
 		if (string.equalsIgnoreCase("POST")) {
 
 			 response = response.then().assertThat().spec(responseSpecBuilder(int1)).extract().response();
-	
+			 System.out.println(int1);
 			 
 		} else if (string.equalsIgnoreCase("GET")) {
 
 			 response = response.then().assertThat().spec(responseSpecBuilder(int1)).extract().response();
 
-			 
+			 System.out.println(int1);
 			 
 		} else if (string.equalsIgnoreCase("PUT")) {
 
 			 response = response.then().assertThat().spec(responseSpecBuilder(int1)).extract().response();
 
-		
+			 System.out.println(int1);
 			 
 		} else if (string.equalsIgnoreCase("DELETE")) {
 
 			 response = response.then().assertThat().spec(responseSpecBuilder(int1)).extract().response();
 
-			  
+			  System.out.println(int1);
 			 
 		}
 

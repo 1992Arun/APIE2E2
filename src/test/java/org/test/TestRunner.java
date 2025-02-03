@@ -7,6 +7,6 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features= "src/test/resources", glue="org.step")
-public class APITestRunner {
+public class TestRunner {
 
 }

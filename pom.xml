@@ -5,14 +5,14 @@
   <version>0.0.1-SNAPSHOT</version>
   
   
-   <dependencies>
-  
-  <dependency>
-    <groupId>io.rest-assured</groupId>
-    <artifactId>rest-assured</artifactId>
-    <version>4.5.1</version>
-    <scope>test</scope>
-</dependency>
+  <dependencies>
+    <!-- RestAssured for API Testing -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.3.1</version>
+        <scope>test</scope>
+    </dependency>
   
   <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
