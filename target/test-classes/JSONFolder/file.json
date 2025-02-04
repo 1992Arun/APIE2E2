@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1486942100,
+              "duration": 722459700,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2025-02-04T10:02:53.190Z",
+        "start_timestamp": "2025-02-04T10:36:10.708Z",
         "line": 7,
         "name": "Verifying and validating the GET request and response",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3493388900,
+              "duration": 1874605900,
               "status": "passed"
             },
             "line": 9,
@@ -56,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 1346566600,
+              "duration": 854119200,
               "status": "passed"
             },
             "line": 11,
@@ -87,7 +87,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4833700,
+              "duration": 2031200,
               "status": "passed"
             },
             "line": 5,
@@ -100,7 +100,7 @@
         ]
       },
       {
-        "start_timestamp": "2025-02-04T10:02:59.533Z",
+        "start_timestamp": "2025-02-04T10:36:14.170Z",
         "line": 13,
         "name": "Verifying and validating the POST request and response",
         "description": "",
@@ -110,7 +110,7 @@
         "steps": [
           {
             "result": {
-              "duration": 189843800,
+              "duration": 171789500,
               "status": "passed"
             },
             "line": 15,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 715063400,
+              "duration": 1994641300,
               "status": "passed"
             },
             "line": 17,
@@ -150,7 +150,7 @@
           },
           {
             "result": {
-              "duration": 27169400,
+              "duration": 25262400,
               "status": "passed"
             },
             "line": 19,
@@ -181,7 +181,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8387500,
+              "duration": 7131100,
               "status": "passed"
             },
             "line": 5,
@@ -194,7 +194,7 @@
         ]
       },
       {
-        "start_timestamp": "2025-02-04T10:03:00.474Z",
+        "start_timestamp": "2025-02-04T10:36:16.365Z",
         "line": 21,
         "name": "Verifying and validating the PUT request and response",
         "description": "",
@@ -204,7 +204,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11944400,
+              "duration": 12264300,
               "status": "passed"
             },
             "line": 23,
@@ -222,7 +222,7 @@
           },
           {
             "result": {
-              "duration": 767463100,
+              "duration": 796967000,
               "status": "passed"
             },
             "line": 25,
@@ -244,7 +244,7 @@
           },
           {
             "result": {
-              "duration": 4590100,
+              "duration": 3091300,
               "status": "passed"
             },
             "line": 27,
@@ -275,7 +275,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6180600,
+              "duration": 5909800,
               "status": "passed"
             },
             "line": 5,
@@ -288,7 +288,7 @@
         ]
       },
       {
-        "start_timestamp": "2025-02-04T10:03:01.270Z",
+        "start_timestamp": "2025-02-04T10:36:17.186Z",
         "line": 30,
         "name": "Verifying and validating the DELETE request and response",
         "description": "",
@@ -298,7 +298,7 @@
         "steps": [
           {
             "result": {
-              "duration": 706397200,
+              "duration": 810563600,
               "status": "passed"
             },
             "line": 34,
@@ -320,7 +320,7 @@
           },
           {
             "result": {
-              "duration": 2000600,
+              "duration": 1447900,
               "status": "passed"
             },
             "line": 36,
