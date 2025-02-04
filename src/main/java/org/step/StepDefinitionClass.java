@@ -8,6 +8,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
@@ -56,27 +57,24 @@ public class StepDefinitionClass extends Builder {
 
 		if (string.equalsIgnoreCase("POST")) {
 
-			 response = response.then().assertThat().spec(responseSpecBuilder(int1)).extract().response();
-			 System.out.println(int1);
-			 
+			response = response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("PostSchema.json"))
+					.spec(responseSpecBuilder(int1)).extract().response();
+			System.out.println(getResponseBody(response));
+
 		} else if (string.equalsIgnoreCase("GET")) {
 
-			 response = response.then().assertThat().spec(responseSpecBuilder(int1)).extract().response();
+			response = response.then().assertThat()
+					.body(JsonSchemaValidator.matchesJsonSchemaInClasspath("Schema.json"))
+					.spec(responseSpecBuilder(int1)).extract().response();
 
-			 System.out.println(int1);
-			 
 		} else if (string.equalsIgnoreCase("PUT")) {
 
-			 response = response.then().assertThat().spec(responseSpecBuilder(int1)).extract().response();
+			response = response.then().assertThat().spec(responseSpecBuilder(int1)).extract().response();
 
-			 System.out.println(int1);
-			 
 		} else if (string.equalsIgnoreCase("DELETE")) {
 
-			 response = response.then().assertThat().spec(responseSpecBuilder(int1)).extract().response();
+			response = response.then().assertThat().spec(responseSpecBuilder(int1)).extract().response();
 
-			  System.out.println(int1);
-			 
 		}
 
 	}

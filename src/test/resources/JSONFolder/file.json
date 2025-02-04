@@ -1,0 +1,353 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1486942100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I give the base URI and request specifictions",
+            "match": {
+              "location": "StepDefinitionClass.i_give_the_base_URI_and_request_specifictions()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-02-04T10:02:53.190Z",
+        "line": 7,
+        "name": "Verifying and validating the GET request and response",
+        "description": "",
+        "id": "verifying-the-apis-of-reqres;verifying-and-validating-the-get-request-and-response",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3493388900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I send the \"GET\" request with \"getData\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"getData\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitionClass.i_send_the_request_with_endpoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1346566600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify \"GET\" response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 9
+                },
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitionClass.i_verify_response_code_should_be(String,Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4833700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I give the base URI and request specifictions",
+            "match": {
+              "location": "StepDefinitionClass.i_give_the_base_URI_and_request_specifictions()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-02-04T10:02:59.533Z",
+        "line": 13,
+        "name": "Verifying and validating the POST request and response",
+        "description": "",
+        "id": "verifying-the-apis-of-reqres;verifying-and-validating-the-post-request-and-response",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 189843800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I give the base URI and \"POST\" request body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinitionClass.i_give_the_base_URI_and_request_body(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 715063400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I send the \"POST\" request with \"createData\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"createData\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitionClass.i_send_the_request_with_endpoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27169400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify \"POST\" response code should be 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 9
+                },
+                {
+                  "val": "201",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefinitionClass.i_verify_response_code_should_be(String,Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8387500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I give the base URI and request specifictions",
+            "match": {
+              "location": "StepDefinitionClass.i_give_the_base_URI_and_request_specifictions()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-02-04T10:03:00.474Z",
+        "line": 21,
+        "name": "Verifying and validating the PUT request and response",
+        "description": "",
+        "id": "verifying-the-apis-of-reqres;verifying-and-validating-the-put-request-and-response",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11944400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I give the base URI and \"PUT\" request body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinitionClass.i_give_the_base_URI_and_request_body(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 767463100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I send the \"PUT\" request with \"updateData\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"updateData\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefinitionClass.i_send_the_request_with_endpoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4590100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I verify \"PUT\" response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT\"",
+                  "offset": 9
+                },
+                {
+                  "val": "200",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitionClass.i_verify_response_code_should_be(String,Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6180600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I give the base URI and request specifictions",
+            "match": {
+              "location": "StepDefinitionClass.i_give_the_base_URI_and_request_specifictions()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-02-04T10:03:01.270Z",
+        "line": 30,
+        "name": "Verifying and validating the DELETE request and response",
+        "description": "",
+        "id": "verifying-the-apis-of-reqres;verifying-and-validating-the-delete-request-and-response",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 706397200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I send the \"DELETE\" request with \"deleteData\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"deleteData\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinitionClass.i_send_the_request_with_endpoint(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I verify \"DELETE\" response code should be 204",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 9
+                },
+                {
+                  "val": "204",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitionClass.i_verify_response_code_should_be(String,Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the APIs of ReqRes",
+    "description": "",
+    "id": "verifying-the-apis-of-reqres",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/ReqRes.feature",
+    "tags": []
+  }
+]
